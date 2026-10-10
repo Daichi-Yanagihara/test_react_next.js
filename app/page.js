@@ -18,6 +18,10 @@ export default function Home() {
             To get started, edit the{" "}
             <code className={styles.code}>page.js</code> file.
           </h1>
+          <ol>
+              <li>Save and see your changes instantly.</li>
+              <li>こんにちは</li>
+          </ol>
           <p>
             Looking for a starting point or more instructions? Head over to{" "}
             <a
