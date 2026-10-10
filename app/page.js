@@ -1,11 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Counter from "./Counter";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className={styles.page}>
-       <Counter />
+      <Link href="/about">Aboutページへ移動</Link>
+      <Counter />
       <main className={styles.main}>
         <Image
           className={styles.logo}
